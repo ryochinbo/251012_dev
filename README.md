@@ -17,31 +17,47 @@ RAG（Retrieval Augmented Generation）の開発学習計画ですね！GitHub�
 本プロジェクトは以下のフォルダ構成を採用します。
 
 ```
-C:\Users\ryoic\repository\251012_dev.git\
-├───.env.sample
-├───.gitignore
-├───README.md
-├───requirements.txt
+251012_dev.git\
 ├───.gemini/
+│   ├───geminicli.txt
+│   └───rules.md
 ├───.git/
 ├───.venv/
 ├───src/
-│   ├───agents/         # Agentのロジック
-│   ├───data_processing/ # ドキュメントのロード、前処理、チャンク化など
-│   ├───generators/      # LLMに回答を生成させる機能
-│   ├───pipelines/       # RAGの各処理を繋ぐパイプライン
-│   ├───retrievers/      # ベクトル検索やキーワード検索などの検索機能
-│   └───web_ui/          # StreamlitなどのUI関連コード
-├───notebooks/          # 実験や分析用のJupyter Notebook
+│   ├───agents/
+│   │   └───def agents.txt
+│   ├───data_processing/
+│   │   └───ドキュメントのロード_前処理_チャンク化など.txt
+│   ├───generators/
+│   │   └───LLMに回答を生成させる機能.txt
+│   ├───pipelines/
+│   │   └───RAGの各処理を繋ぐパイプライン.txt
+│   ├───retrievers/
+│   │   └───ベクトル検索やキーワード検索などの検索機能.txt
+│   ├───tool/
+│   │   └───defs.txt
+│   └───web_ui/
+│       └───StreamlitなどのUI関連コード.txt
+├───notebooks/
+│   └───実験や分析用のJupyter_Notebook.txt
 ├───data/
-│   ├───raw/             # 未加工の参照ドキュメント (PDF, TXTなど)
-│   ├───processed/       # 処理済みのデータ
-│   └───vector_store/    # ChromaDBなどのローカルDB
-├───tests/              # テストコード
-├───configs/            # 設定ファイル
-├───scripts/            # データ取得やバッチ処理などの補助スクリプト
-└───docs/               # プロジェクト関連ドキュメント
+│   ├───raw/
+│   │   └───未加工の参照ドキュメント.txt
+│   ├───processed/
+│   │   └───処理済みのデータ.txt
+│   └───vector_store/
+│       └───ChromaDBなどのローカルDB.txt
+├───tests/
+│   └───テストコード.txt
+├───configs/
+│   ├───.env.sample
+│   └───設定ファイル.txt
+├───scripts/
+│   └───データ取得やバッチ処理などの補助スクリプト.txt
+└───docs/
+    └───プロジェクト関連ドキュメント.txt
 ```
+
 
 
 ---
