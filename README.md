@@ -8,13 +8,10 @@ python 3.11.7
 py -3.11 -m venv .venv
 ```
 
-RAG（Retrieval Augmented Generation）の開発学習計画ですね！GitHubのREADMEに載せることを想定して、詳細な学習計画とMermaid形式のガントチャートを作成します。
 
 ---
 
 ## フォルダ構成
-
-本プロジェクトは以下のフォルダ構成を採用します。
 
 ```
 251012_dev.git\
