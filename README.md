@@ -11,6 +11,39 @@ py -3.11 -m venv .venv
 RAG（Retrieval Augmented Generation）の開発学習計画ですね！GitHubのREADMEに載せることを想定して、詳細な学習計画とMermaid形式のガントチャートを作成します。
 
 ---
+
+## フォルダ構成
+
+本プロジェクトは以下のフォルダ構成を採用します。
+
+```
+C:\Users\ryoic\repository\251012_dev.git\
+├───.env.sample
+├───.gitignore
+├───README.md
+├───requirements.txt
+├───.gemini/
+├───.git/
+├───.venv/
+├───src/
+│   ├───agents/         # Agentのロジック
+│   ├───data_processing/ # ドキュメントのロード、前処理、チャンク化など
+│   ├───generators/      # LLMに回答を生成させる機能
+│   ├───pipelines/       # RAGの各処理を繋ぐパイプライン
+│   ├───retrievers/      # ベクトル検索やキーワード検索などの検索機能
+│   └───web_ui/          # StreamlitなどのUI関連コード
+├───notebooks/          # 実験や分析用のJupyter Notebook
+├───data/
+│   ├───raw/             # 未加工の参照ドキュメント (PDF, TXTなど)
+│   ├───processed/       # 処理済みのデータ
+│   └───vector_store/    # ChromaDBなどのローカルDB
+├───tests/              # テストコード
+├───configs/            # 設定ファイル
+├───scripts/            # データ取得やバッチ処理などの補助スクリプト
+└───docs/               # プロジェクト関連ドキュメント
+```
+
+
 ---
 
 
