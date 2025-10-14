@@ -247,7 +247,7 @@ RAGの回答精度を向上させるための技術と、参照資料の柔軟�
 
 ---
 
-## スケジュール感 (Mermaid ガントチャート)
+## スケジュール感 
 ```mermaid
 gantt
     dateFormat  YYYY-MM-DD
